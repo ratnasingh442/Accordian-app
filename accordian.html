@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="accordian.css" />
+    <title>FAQ Accordian</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="accordian">
+        <div class="accordian-heading">
+          <div class="star-symbol">
+            <img src="assets/images/icon-star.svg" />
+          </div>
+          <div class="heading">FAQs</div>
+        </div>
+
+        <div class="accordian-content">
+          <div class="question-header">
+            <div class="question">
+              What is Frontend Mentor and how will it help me?
+            </div>
+            <div>
+              <img src='#' class="addSub" onclick="toogleAccordian(0)" />
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            perspiciatis dolor delectus voluptates, veniam quasi vel distinctio
+            sint ut qui hic culpa provident numquam dicta praesentium omnis
+            molestias maxime minus?
+          </div>
+        </div>
+        <div class="accordian-content">
+            <div class="question-header">
+              <div class="question">
+                What is Frontend Mentor and how will it help me?
+              </div>
+              <div>
+                <img src="assets/images/icon-minus.svg" class="addSub" onclick="toogleAccordian(1)" />
+              </div>
+            </div>
+            <div class="answer">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+              perspiciatis dolor delectus voluptates, veniam quasi vel distinctio
+              sint ut qui hic culpa provident numquam dicta praesentium omnis
+              molestias maxime minus?
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="accordian.js"></script>
+  </body>
+</html>

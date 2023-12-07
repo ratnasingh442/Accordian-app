@@ -1,0 +1,48 @@
+.container{
+    width:50%;
+    margin: 8rem auto;
+    padding-top: 10%;
+    background-color: white;
+}
+body{
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: hsl(275, 100%, 97%);
+}
+
+
+.question-header{
+    display: flex;
+    justify-content: space-between;
+}
+.question{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.accordian-content{
+    border-bottom: 1px solid hsl(292, 16%, 49%);
+    padding:13px;
+    box-shadow: 10px;
+}
+.accordian-heading{
+    display: flex;
+}
+.heading{
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Work Sans' ;
+}
+.addSub{
+    margin-top: -22%;
+    margin-bottom: 58%;
+}
+
+.star-symbol{
+    margin-right: 6%;
+}
+.accordian{
+ margin: -13% 17%;
+ padding-bottom: 7%;
+}
